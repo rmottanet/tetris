@@ -1,0 +1,19 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	background-color: #333; /* cor de fundo escura */
+	font-family: Arial, sans-serif;
+	color: #eee;
+}
+canvas {
+	border: 5px solid #555; /* borda para o tabuleiro */
+	background-color: #000; /* fundo preto para o jogo */
+	display: block; /* remove espaço extra abaixo do canvas */
+}
+h1 {
+	position: absolute;
+	top: 20px;
+}
