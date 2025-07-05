@@ -8,12 +8,38 @@ body {
 	font-family: Arial, sans-serif;
 	color: #eee;
 }
+
 canvas {
 	border: 5px solid #555; /* borda para o tabuleiro */
 	background-color: #000; /* fundo preto para o jogo */
 	display: block; /* remove espaço extra abaixo do canvas */
 }
-h1 {
-	position: absolute;
-	top: 20px;
+
+.footer {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: transparent !important;
+    color: #007BFF;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer li {
+    margin-right: 20px;
+}
+
+.fab, .fas, .fa-solid {
+    font-size: 1.2em;    
+    color: #2C2C2C; 
+    margin-right: 10px;  
 }
